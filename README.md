@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Purpose
-Using loan statistics data from Quarter 1, 2019 from LendingClub, machine learning models will be applied to analzye the data. The performance of each of the models will be reviewed. 
+Using loan statistics data from Quarter 1, 2019 from LendingClub, machine learning models will be applied to analyze the data. The performance of each of the models will be reviewed. 
 
 The models being reviewed are: 
 * Oversampling
@@ -60,7 +60,7 @@ We see that the Easy Ensemble AdaBoost Classifer model has the highest accuracy 
 We see that the precision for high_risk loans is low at about 0.02 to 0.09. However, the precision for low_risk loans are usually at 1.00. The data is imbalanced, and there are far more low_risk loans than high_risk. 
 
 ### Recall
-Recall for all models fall within .74 to .94. The Easy Ensemble AdaBoost Classifier has the highest recall here.
+The recall value for all models fall within .74 to .94. The Easy Ensemble AdaBoost Classifier has the highest recall here.
 
 ### Model Recommendation
 The Easy Ensemble AdaBoost Classfier would be the best model to use here. The recall value is more important for loans than the precision value. We want to minimize false negatives, and the recall score is best for that scenario. If an applicant is high risk, there is a chance that the applicant defaults on the loan. At a recall score at 0.92 for high_risk loans, the Easy Ensemble is the best model to use.
