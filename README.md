@@ -16,37 +16,37 @@ The models being reviewed are:
 The following sections detail the balanced accuracy score, precision and recall scores of the the 6 machine learning models used in this analysis.
 
 ### Oversampling
-Balanced Accuracy Score: 0.8377019676944308
+Balanced Accuracy Score: 0.8377
 
 Imbalanced Classification Report:<br>
 ![Oversampling](images/oversampling_imb_rep.png)
 
 ### Smote Oversampling
-Balanced Accuracy Score: 0.8388510243681058
+Balanced Accuracy Score: 0.8388
 
 Imbalanced Classification Report:<br>
 ![Smote](images/smote_imb_rep.png)
 
 ### Undersampling
-Balanced Accuracy Score: 0.8125920403078661
+Balanced Accuracy Score: 0.8125
 
 Imbalanced Classification Report:<br>
 ![Undersampling](images/undersampling_rep.png)
 
 ### Combination (SMOTEENN)
-Balanced Accuracy Score: 0.8487036788337393
+Balanced Accuracy Score: 0.8487
 
 Imbalanced Classification Report:<br>
 ![Smoteen](images/smotteen_imb_rep.png)
 
 ### Balanced Random Forest Classifier
-Balanced Accuracy Score: 0.7887512850910909
+Balanced Accuracy Score: 0.7887
 
 Imbalanced Classification Report:<br>
 ![Balanced Random Forest](images/brf_imb_rep.png)
 
 ### Easy Ensemble AdaBoost Classifier
-Balanced Accuracy Score: 0.931601605553446
+Balanced Accuracy Score: 0.9316
 
 Imbalanced Classification Report:<br>
 ![Easy Ensemble](images/easy_ensemble_imb_rep.png)
